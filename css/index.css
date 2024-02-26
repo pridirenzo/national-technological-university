@@ -69,14 +69,15 @@ body {
 .title-container a:hover{
     color: rgb(0, 81, 255);
     text-decoration: none;
+    transition: 0.3s ease-in-out;
 
 }
 
 .title-container h1:hover{
-    transform: scale(1.1);
-    transition: 0.2s ease;
+    transition: 0.3s ease-in-out;
    
 }
+
 
 #main-background-video{
 

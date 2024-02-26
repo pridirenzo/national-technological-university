@@ -115,12 +115,10 @@
     filter:invert(100%)
 }
 #title{
-    transition: 0.3s ease;
+    transition: 0.3s ease-in-out;
     color: white;
 }
 
 #title:hover{
-    
-    transform: scale(1.1);
     color: blue;
 }
