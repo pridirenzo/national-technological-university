@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Raleway:wght@500&family=Rubik:wght@300&family=Victor+Mono:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    text-align: start;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-left: 400px;
+}
+
+
+.item-2{
+    margin: 10%;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    transition: transform 0.2s ease;
+    text-decoration: none;
+    align-self: center;
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    border-radius: 25px;
+    
+}
+.item-2:hover {
+    background-color: rgb(15, 15, 14, 0.1);
+    color: rgb(0, 26, 173);
+    transform: scale(1.1);
+
+}
+
+
+#img{
+    filter: invert(100%);
+    margin-right: 15px;
+}
+.title-container{
+    border: solid 1px white;
+    padding: 25px;
+    font-size: 10px;
+}
+.title-2-container{
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+#body{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    padding: 30px;
+    height: 500px;
+    justify-content: start;
+    text-align: justify;
+    background-color: rgb(3, 1, 18);
+    color: white;
+}
+
+#body-div{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+#first-title{
+    margin-bottom: 20px;
+}
+
+#list{
+    font-family: 'Raleway';
+    font-size: 20px;
+}
+
+.item{
+    margin-top: 25px;
+}
+
+#logo-div{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+#img2{
+    width: 320px;
+    height: 300px;
+    filter:invert(100%)
+}
+#title{
+    transition: 0.3s ease;
+    color: white;
+}
+
+#title:hover{
+    
+    transform: scale(1.1);
+    color: blue;
+}

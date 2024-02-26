@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Raleway:wght@500&family=Rubik:wght@300&family=Victor+Mono:wght@100&display=swap');
+
+
+html {
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    
+    background-color: rgb(15, 15, 14, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+
+}
+
+
+
+
+.body{
+    color: white;
+    padding: 1%;
+}
+
+
+
+
+.title-container, .title-2-container{
+    padding: 1% 2%;
+    margin: 0;
+    color: white;
+    display: flex;
+    font-size: 65%;
+    align-self: center;
+    align-items: center;
+}
+
+.title-container{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.title-2-container{
+    flex-grow: 1;
+    padding: 0% 5%;
+    justify-content: flex-start;
+    font-size: 80%;
+
+    
+}
+
+.title-container a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.title-container a:hover{
+    color: rgb(0, 81, 255);
+    text-decoration: none;
+
+}
+
+.title-container h1:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease;
+   
+}
+
+#main-background-video{
+
+    opacity: 0.5;
+    width:100%;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    object-fit: fill;
+}
+
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1%;
+    box-sizing: border-box;
+
+    
+}
+
+.item {
+    margin: 10%;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    transition: transform 0.2s ease;
+    text-decoration: none;
+    align-self: center;
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    border-radius: 25px;
+    
+}
+.item:hover {
+    background-color: rgb(15, 15, 14, 0.1);
+    color: rgb(0, 26, 173);
+    transform: scale(1.1);
+
+}
+
+.main-text{
+    display: flex;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    padding: 5% 10%;
+    box-sizing: border-box;
+    font-weight: lighter;
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+    line-height: 2;
+    word-spacing: 2px;
+   
+}
+
+
+.study-section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.st-title{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50%;
+    padding: 50px;
+    text-decoration:none;
+    font-size: medium;
+}
+
+.st-item{
+    background-color: rgba(0, 16, 33, 0.748);
+    flex-wrap: nowrap;
+    padding: 60px;
+    flex-grow: 1;
+    transition: 0.4s ease;
+    white-space: nowrap;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: small;
+    font-weight: lighter;
+    box-sizing: border-box;
+}
+
+
+.study-item{
+    color:rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+
+.study-item:hover{
+    color: rgb(0, 24, 80);
+    transform: scale(1.1);
+    text-decoration:none;
+}
+
+#img{
+    filter: invert(100%);
+    box-sizing: border-box;
+    margin-right: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.st-item:hover{
+    background-color: rgb(0, 7, 63);
+    transform: scale(1.1);
+    .study-item{
+        color: rgb(191, 191, 191);
+    }
+}
+
+#footer{
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 90px;
+}
+
+#footer-title-box{
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: small;
+    font-weight: lighter;
+    background-color: rgb(0, 0, 0);
+}
+
+#img2, #img3{
+    filter: invert(100%);
+    width: 50px;
+}
+
+#footer-subtitle, #footer-subtitle2{
+    font-weight: lighter;
+}
+
+#dev-info{
+    font-size: small;
+    font-weight: lighter;
+    padding: 30px;
+    background-color: rgb(0, 0, 0);
+}
+
+#dev-info-2{
+    font-weight: lighter;
+}
+
+#git-user{
+    text-decoration: none;
+    color: white;
+}
+
+#git-user:hover{
+    color: rgb(61, 61, 253);
+    cursor: pointer;
+    transition: 0.3s ease;   
+}
+
