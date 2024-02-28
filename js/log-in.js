@@ -1,5 +1,7 @@
-let button = document.getElementById("log-in-button");
+let form = document.getElementById("login-form");
+let button = document.getElementById("login-button");
 
-button.addEventListener("click", function(){
-    location.href = "index.html";
+form.addEventListener("submit", (event)=>{
+    event.preventDefault(); // redirecciona
+    location.href = "log-out.html";
 });
